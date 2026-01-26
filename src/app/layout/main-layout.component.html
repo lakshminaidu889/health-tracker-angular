@@ -1,0 +1,19 @@
+<div class="layout">
+  <aside class="sidebar">
+    <h2>🏥 Health Tracker</h2>
+
+    <nav>
+      <a routerLink="/dashboard" routerLinkActive="active">📊 Dashboard</a>
+      <a routerLink="/users" routerLinkActive="active">👤 Users</a>
+      <a routerLink="/goals" routerLinkActive="active">🎯 Goals</a>
+      <a routerLink="/sleep" routerLinkActive="active">😴 Sleep</a>
+      <a routerLink="/calories" routerLinkActive="active">🔥 Calories</a>
+      <a routerLink="/about" routerLinkActive="active">ℹ️ About</a>
+      <a routerLink="/contact" routerLinkActive="active">📞 Contact</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

@@ -1,0 +1,47 @@
+.page h1 {
+  margin-bottom: 20px;
+}
+
+.chart-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  max-width: 650px;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 260px;
+  margin-top: 30px;
+}
+
+.bar {
+  width: 80px;
+  background: linear-gradient(180deg, #4ade80, #22c55e);
+  border-radius: 12px 12px 0 0;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.bar:hover {
+  transform: scale(1.05);
+}
+
+.bar span {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.bar label {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}

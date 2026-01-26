@@ -1,0 +1,17 @@
+<h2>🎯 Goals</h2>
+
+<form (ngSubmit)="addGoal()">
+  <input
+    [(ngModel)]="goalText"
+    name="goal"
+    placeholder="Enter goal"
+  />
+  <button type="submit">Add Goal</button>
+</form>
+
+<ul>
+  <li *ngFor="let g of goals; let i = index">
+    {{ g }}
+    <button (click)="deleteGoal(i)">❌</button>
+  </li>
+</ul>

@@ -1,0 +1,172 @@
+.page h1 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.goal-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.goal-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.goal-form input:focus {
+  border-color: #4f46e5;
+}
+
+.goal-form button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.goal-form button:hover {
+  background: #4338ca;
+}
+
+.goal-list li {
+  background: #f9fafb;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.goal-list li.completed {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+.goal-list li button {
+  float: right;
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.goal-list li button:hover {
+  background: #dc2626;
+}
+.goal-list li .complete-btn {
+  background: #10b981;
+  margin-right: 10px;
+}
+.goal-list li .complete-btn:hover {
+  background: #059669;
+}
+.goal-list li .btn-group button {
+  float: none;
+  margin-left: 5px;
+}
+.goal-list li .btn-group {
+  float: right;
+}
+.goal-list {
+  list-style: none;
+  padding: 0;
+}
+.goal-list li:last-child {
+  margin-bottom: 0;
+}
+.goal-list li .goal-text {
+  display: inline-block;
+  max-width: 70%;
+}
+.goal-list li .goal-actions {
+  float: right;
+}
+.goal-list li .goal-actions button {
+  margin-left: 8px;
+}
+.goal-list li .goal-actions button:hover {
+  opacity: 0.9;
+}
+.goal-list li .goal-actions .edit-btn {
+  background: #3b82f6;
+}
+.goal-list li .goal-actions .edit-btn:hover {
+  background: #2563eb;
+}
+.goal-list li .goal-actions .delete-btn {
+  background: #ef4444;
+}
+.goal-list li .goal-actions .delete-btn:hover {
+  background: #dc2626;
+}
+.goal-list li .goal-actions .complete-btn {
+  background: #10b981;
+}
+.goal-list li .goal-actions .complete-btn:hover {
+  background: #059669;
+}
+.goal-list li .goal-actions button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.goal-list li .goal-actions button:hover {
+  opacity: 0.9;
+}
+.goal-list li .goal-actions .edit-btn {
+  background: #3b82f6;
+}
+.goal-list li .goal-actions .edit-btn:hover {
+  background: #2563eb;
+}
+.goal-list li .goal-actions .delete-btn {
+  background: #ef4444;
+}
+.goal-list li .goal-actions .delete-btn:hover {
+  background: #dc2626;
+}
+.goal-list li .goal-actions .complete-btn {
+  background: #10b981;
+}
+.goal-list li .goal-actions .complete-btn:hover {
+  background: #059669;
+}
+.goal-list li .goal-actions button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.goal-list li .goal-actions button:hover {
+  opacity: 0.9;
+}
+.goal-list li .goal-actions .edit-btn {
+  background: #3b82f6;
+}
+.goal-list li .goal-actions .edit-btn:hover {
+  background: #2563eb;
+}
+.goal-list li .goal-actions .delete-btn {
+  background: #ef4444;
+}
+.goal-list li .goal-actions .delete-btn:hover {
+  background: #dc2626;
+}

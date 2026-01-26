@@ -1,0 +1,9 @@
+.app-layout {
+  display: flex;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+  width: 100%;
+}

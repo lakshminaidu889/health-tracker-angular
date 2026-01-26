@@ -1,0 +1,18 @@
+<h2>👤 Users</h2>
+
+<form (ngSubmit)="saveUser()">
+  <input [(ngModel)]="user.name" name="name" placeholder="Name" />
+
+  <input type="number" [(ngModel)]="user.running" name="running" placeholder="Running" />
+  <input type="number" [(ngModel)]="user.swimming" name="swimming" placeholder="Swimming" />
+  <input type="number" [(ngModel)]="user.cycling" name="cycling" placeholder="Cycling" />
+  <input type="number" [(ngModel)]="user.yoga" name="yoga" placeholder="Yoga" />
+
+  <button type="submit">Add User</button>
+</form>
+
+<ul>
+  <li *ngFor="let u of users">
+    {{ u.name }} — R:{{u.running}} S:{{u.swimming}} C:{{u.cycling}} Y:{{u.yoga}}
+  </li>
+</ul>

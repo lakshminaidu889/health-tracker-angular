@@ -1,0 +1,27 @@
+<h2>Users</h2>
+
+<form (ngSubmit)="saveUser()">
+  <input [(ngModel)]="user.name" name="name" placeholder="Name" required />
+
+  <input type="number" [(ngModel)]="user.running" name="running" placeholder="Running" />
+  <input type="number" [(ngModel)]="user.swimming" name="swimming" placeholder="Swimming" />
+  <input type="number" [(ngModel)]="user.cycling" name="cycling" placeholder="Cycling" />
+  <input type="number" [(ngModel)]="user.yoga" name="yoga" placeholder="Yoga" />
+
+  <button type="submit">
+    {{ editingIndex !== null ? 'Update User' : 'Add User' }}
+  </button>
+</form>
+
+<ul>
+  <li *ngFor="let u of users; let i = index">
+    {{ u.name }} |
+    Run: {{ u.running }},
+    Swim: {{ u.swimming }},
+    Cycle: {{ u.cycling }},
+    Yoga: {{ u.yoga }}
+
+    <button (click)="editUser(i)">Edit</button>
+    <button (click)="deleteUser(i)">Delete</button>
+  </li>
+</ul>

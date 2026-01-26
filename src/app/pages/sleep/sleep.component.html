@@ -1,0 +1,21 @@
+<h2>😴 Sleep Tracker</h2>
+
+<form (ngSubmit)="addSleep()">
+  <input
+    type="number"
+    [(ngModel)]="hours"
+    name="hours"
+    placeholder="Hours slept"
+  />
+  <button type="submit">Save</button>
+</form>
+
+<ul>
+  <li *ngFor="let h of sleepList; let i = index">
+    {{ h }} hrs
+    <button (click)="deleteSleep(i)">❌</button>
+  </li>
+</ul>
+
+<h1>😴 Sleep</h1>
+<p>Sleep tracking coming soon.</p>

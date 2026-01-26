@@ -1,0 +1,21 @@
+<h2>🔥 Calories</h2>
+
+<form (ngSubmit)="addCalories()">
+  <input
+    type="number"
+    [(ngModel)]="calories"
+    name="calories"
+    placeholder="Enter calories"
+  />
+
+  <button type="submit">Save</button>
+</form>
+
+<ul>
+  <li *ngFor="let c of caloriesList; let i = index">
+    {{ c }} kcal
+    <button (click)="deleteCalories(i)">❌</button>
+  </li>
+</ul>
+<h1>🔥 Calories</h1>
+<p>Calorie tracking coming soon.</p>

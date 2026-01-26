@@ -1,0 +1,14 @@
+<h3>Add / Edit User</h3>
+
+<input placeholder="Name" [(ngModel)]="user.name">
+
+<input type="number" placeholder="Running (hrs)" [(ngModel)]="user.running">
+<input type="number" placeholder="Swimming (hrs)" [(ngModel)]="user.swimming">
+<input type="number" placeholder="Cycling (hrs)" [(ngModel)]="user.cycling">
+<input type="number" placeholder="Yoga (hrs)" [(ngModel)]="user.yoga">
+
+<button (click)="save()">Save</button>
+<button (click)="reset()">Clear</button>
+<p *ngIf="message">{{ message }}</p>
+<button (click)="cancel()">Cancel</button>
+  

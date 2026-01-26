@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f3f4f6;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+}

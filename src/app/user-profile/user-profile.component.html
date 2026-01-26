@@ -1,0 +1,11 @@
+<h3>User Profile</h3>
+
+<div *ngIf="user">
+  <p><b>Name:</b> {{ user.username }}</p>
+  <p>Running: {{ user.running }}</p>
+  <p>Cycling: {{ user.cycling }}</p>
+  <p>Swimming: {{ user.swimming }}</p>
+  <p>Yoga: {{ user.yoga }}</p>
+</div>
+
+<a routerLink="/">← Back to Dashboard</a>

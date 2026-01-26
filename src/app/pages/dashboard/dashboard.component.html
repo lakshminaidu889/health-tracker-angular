@@ -1,0 +1,32 @@
+<div class="page">
+  <h1>📊 Activity Dashboard</h1>
+
+  <div class="chart-card">
+    <div class="bars">
+      <div class="bar" [style.height]="barHeight(totals.running)">
+        <span>{{ totals.running }}</span>
+        <label>Running</label>
+      </div>
+
+      <div class="bar" [style.height]="barHeight(totals.swimming)">
+        <span>{{ totals.swimming }}</span>
+        <label>Swimming</label>
+      </div>
+
+      <div class="bar" [style.height]="barHeight(totals.cycling)">
+        <span>{{ totals.cycling }}</span>
+        <label>Cycling</label>
+      </div>
+
+      <div class="bar" [style.height]="barHeight(totals.yoga)">
+        <span>{{ totals.yoga }}</span>
+        <label>Yoga</label>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="stats">
+  <p><strong>Total Calories:</strong> {{ getTotalCalories() }}</p>
+  <p><strong>Average Sleep (hrs):</strong> {{ getAverageSleep() | number:'1.1-1' }}</p>
+</div>
+

@@ -1,0 +1,18 @@
+.form {
+  display: grid;
+  gap: 10px;
+  max-width: 300px;
+}
+
+input, button {
+  padding: 8px;
+}
+button {
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
