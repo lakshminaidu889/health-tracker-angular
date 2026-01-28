@@ -1,27 +1,56 @@
-# HealthTrackerApp
+# 🏥 Health Tracker Dashboard (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+A full-featured Angular application to track:
+- User activities (Running, Swimming, Cycling, Yoga)
+- Calories intake
+- Sleep hours
+- Goals
 
-## Development server
+🔗 **Live Demo:**  
+https://lakshminaidu889.github.io/health-tracker-angular/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## ✨ Features
+- Angular standalone components
+- Sidebar navigation
+- Persistent data using LocalStorage
+- Dynamic dashboard graphs
+- CRUD operations for Users, Goals, Sleep, Calories
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📸 Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-## Running unit tests
+### Users
+![Users](screenshots/users.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Goals
+![Goals](screenshots/goals.png)
 
-## Running end-to-end tests
+### Sleep
+![Sleep](screenshots/sleep.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Calories
+![Calories](screenshots/calories.png)
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🛠 Tech Stack
+- Angular
+- TypeScript
+- HTML / CSS
+- GitHub Pages
+
+---
+
+## 🚀 Deployment
+Deployed using **GitHub Pages**.
+
+---
+
+## 📂 Source Code
+This repository contains the complete source code.
