@@ -1,22 +1,18 @@
 # 🏥 Health Tracker Dashboard (Angular)
 
-A full-featured Angular application to track:
-- User activities (Running, Swimming, Cycling, Yoga)
-- Calories intake
-- Sleep hours
-- Goals
+An Angular application to track activities, calories, sleep, and goals.
 
 🔗 **Live Demo:**  
-https://lakshminaidu889.github.io/health-tracker-angular/
+[View Live Site](https://lakshminaidu889.github.io/health-tracker-angular/)
 
 ---
 
 ## ✨ Features
-- Angular standalone components
-- Sidebar navigation
-- Persistent data using LocalStorage
-- Dynamic dashboard graphs
-- CRUD operations for Users, Goals, Sleep, Calories
+- Activity tracking
+- Calories & sleep tracking
+- Goals management
+- Dashboard charts
+- LocalStorage persistence
 
 ---
 
@@ -39,18 +35,5 @@ https://lakshminaidu889.github.io/health-tracker-angular/
 
 ---
 
-## 🛠 Tech Stack
-- Angular
-- TypeScript
-- HTML / CSS
-- GitHub Pages
-
----
-
 ## 🚀 Deployment
-Deployed using **GitHub Pages**.
-
----
-
-## 📂 Source Code
-This repository contains the complete source code.
+Deployed using **GitHub Pages**
