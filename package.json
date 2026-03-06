@@ -6,6 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:github": "ng build --configuration production --base-href /health-tracker-angular/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
